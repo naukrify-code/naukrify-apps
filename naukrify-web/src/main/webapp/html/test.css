@@ -1,0 +1,45 @@
+.topicsContainer
+{
+	grid-template-columns: 1fr 2fr;
+	position: relative;
+    display: grid;
+    min-height: 500px;
+    background: var(--white);
+    padding: 30px;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    border-radius: 20px;
+    border-color: blue;
+    border-style: solid;
+}
+.categories
+{
+	height: 400px;
+	width: 100%;
+	size: 3;
+}
+
+.categories h2
+{
+	color: #287bff;
+}
+
+.categories ul{
+	padding: 30px;
+}
+
+.categories ul li
+{
+	list-style: none;
+	cursor: pointer;
+}
+
+.categoryButtons
+{
+	padding: 30px;
+}
+
+
+.topics
+{
+	background-color: #287bff;
+}
